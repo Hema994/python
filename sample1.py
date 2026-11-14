@@ -1,9 +1,8 @@
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
+n = int(input("Enter a number: "))
 
-if a > b:
-    print(a, "is the largest")
-elif b > a:
-    print(b, "is the largest")
+if n % 2 == 0:
+    print("Even")
 else:
-    print("Both numbers are equal")
+    print("Odd")
+
+    print("Hello Python")
